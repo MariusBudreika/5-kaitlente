@@ -1,0 +1,50 @@
+body {
+    background-color: darkcyan;
+    height: 100vh;
+}
+
+.kaitlente {
+    display: grid;
+    
+    grid-template-columns: repeat(4, 1fr);
+    width: 300px;
+    gap: 10px;
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    
+}
+
+.kaitlente > .hotcircle {
+    display: inline-block;
+    justify-self: center;
+    grid-column: span 2;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+}
+
+.kaitlente > .hotcircle.red {
+    background-color: red;
+}
+
+.kaitlente > .switch {
+    display: inline-block;
+    justify-self: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(231, 223, 248);
+    position: relative;
+
+}
+
+.kaitlente > .switch.red {
+    background-color: red;
+}
