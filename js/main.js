@@ -18,7 +18,7 @@ const buttons = DOM.querySelectorAll('.switch');
 
 for (let i = 0; i <= kiekis; i++) {
     const btn = buttons[i];
-    const hc =hcircle[i];
+    const hc = hcircle[i];
 
     btn.addEventListener('click', function () {
         console.log(i);
